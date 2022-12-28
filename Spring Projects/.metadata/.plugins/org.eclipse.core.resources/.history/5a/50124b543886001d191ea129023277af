@@ -1,0 +1,35 @@
+package com.Globant.springboot.web.app.controllers;
+
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.servlet.ModelAndView;
+
+@Controller
+public class IndexController {
+
+	
+	//Cualquiera de las tres es valida
+	
+	//@RequestMapping(value="/prueba", method=RequestMethod.GET)
+	//@GetMapping(value="/index")
+	@GetMapping({"/index", "/", "/home", "/prueba"})	
+	/*public String index(Model model){
+		model.addAttribute("Titulo", "Hola Spring Both!!!");
+		return "index";
+	}	*/
+	
+	public ModelAndView index(ModelAndView mv) {
+		String name = "Hola";		
+		if(name.equals("Hola")) {
+			mv.addObject("Titulo", "Hola Spring en Prueba!!!");
+			mv.setViewName("prueba");
+			return mv;
+		}
+		mv.addObject("Titulo", "Hola Spring en Index!!!");
+		mv.setViewName("index");
+		return mv;	
+	}
+}
+

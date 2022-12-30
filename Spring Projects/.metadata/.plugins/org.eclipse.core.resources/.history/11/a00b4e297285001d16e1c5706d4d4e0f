@@ -1,5 +1,0 @@
-package com.Globant.springboot.web.app.controllers;
-
-public class IndexController {
-
-}

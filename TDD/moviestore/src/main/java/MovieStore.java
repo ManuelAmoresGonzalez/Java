@@ -1,0 +1,23 @@
+import java.util.LinkedList;
+import java.util.List;
+
+import static java.util.Arrays.asList;
+
+public class MovieStore {
+
+    LinkedList<Movie> movies = new LinkedList<Movie>();
+
+    public List<Movie> findByPartialTitle(String partialTitle) {
+        List<Movie> result = new LinkedList<Movie>();
+        for(Movie movie: movies){
+            if(movie.title().toUpperCase().contains(partialTitle.toUpperCase())){
+                result.add(movie);
+            }
+        }
+        return result;
+    }
+
+    public void add(Movie movie) {
+        movies.add(movie);
+    }
+}

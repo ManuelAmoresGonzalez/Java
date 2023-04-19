@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9a9337e4-626e-4b3f-a861-c047fe24a92f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Kafka Projects/ConsumersProducers/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Kafka Projects/ConsumersProducers/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TDD/moviestore/.idea/libraries/Maven__junit_junit_4_13_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TDD/moviestore/.idea/libraries/Maven__org_hamcrest_hamcrest_all_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TDD/moviestore/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TDD/moviestore/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TDD/moviestore/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TDD/moviestore/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TDD/moviestore/moviestore.iml" beforeDir="false" />
-    </list>
+    <list default="true" id="9a9337e4-626e-4b3f-a861-c047fe24a92f" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,13 +18,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/Users/manuel.amores/Desktop/Java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/manuel.amores/Desktop/Java&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -44,5 +35,16 @@
       <updated>1681940354555</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

@@ -10,9 +10,7 @@ import org.springframework.context.annotation.Primary;
 
 @Configuration
 public class AppConfig {
-
-
-
+    
     @Bean("miServicioSimple")
 
     public IServicio registrarMiServicio(){

@@ -11,6 +11,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class IndexController {
 
     @Autowired
+    //For calls to components by means of the identifier @Qualifier
+    //@Qualifier("miServicioSimple")
     private IServicio servicio;
     @GetMapping({"/","","/index"})
     public String index(Model model){

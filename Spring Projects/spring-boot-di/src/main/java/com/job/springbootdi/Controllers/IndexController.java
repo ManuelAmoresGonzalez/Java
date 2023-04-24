@@ -17,4 +17,11 @@ public class IndexController {
         model.addAttribute("objeto", servicio.operacion());
         return "index";
     }
+
+    //Using setMethod to implement the service
+    /*@Autowired
+    public void setServicio(IServicio servicio) {
+        this.servicio = servicio;
+    }*/
+
 }

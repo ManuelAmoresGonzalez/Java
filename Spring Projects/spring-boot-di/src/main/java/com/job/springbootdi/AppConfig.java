@@ -29,6 +29,7 @@ public class AppConfig {
     }
 
     @Bean("itemsFactura")
+    @Primary
     public List<ItemFactura> registrarItems(){
         Producto producto1 = new Producto("Camara Sony", 100);
         Producto producto2 = new Producto("Bicicleta Bianchi aro 26", 200);
@@ -40,7 +41,7 @@ public class AppConfig {
     }
 
     @Bean("itemsFacturaOficina")
-    @Primary
+
     public List<ItemFactura> registrarItemsOficina(){
         Producto producto1 = new Producto("Monitor LG LCD 24", 250);
         Producto producto2 = new Producto("Notebook Asus", 500);

@@ -3,7 +3,9 @@ package com.job.springbootdi.Models.domain;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
+import org.springframework.web.context.annotation.ApplicationScope;
 import org.springframework.web.context.annotation.RequestScope;
+import org.springframework.web.context.annotation.SessionScope;
 
 import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
@@ -13,8 +15,8 @@ import java.util.List;
 @Component
 @RequestScope
 public class Factura implements Serializable {
-
     private static final long serialVersionUID = 946004357128146951L;
+
 
     @Value("${factura.descripcion}")
     private String descripcion;
@@ -26,10 +28,12 @@ public class Factura implements Serializable {
     private List<ItemFactura> items;
 
     @PostConstruct
-    public void inicializar() {
+    public void inicializar(){
         cliente.setNombre(cliente.getNombre().concat(" ").concat("José"));
         descripcion = descripcion.concat(" del cliente: ").concat(cliente.getNombre());
     }
+
+
 
     @PreDestroy
     public void destruir() {

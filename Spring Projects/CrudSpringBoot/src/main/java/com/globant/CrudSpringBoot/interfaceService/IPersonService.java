@@ -1,6 +1,6 @@
-package interfaceService;
+package com.globant.CrudSpringBoot.interfaceService;
 
-import model.Person;
+import com.globant.CrudSpringBoot.model.Person;
 
 import java.util.List;
 import java.util.Optional;

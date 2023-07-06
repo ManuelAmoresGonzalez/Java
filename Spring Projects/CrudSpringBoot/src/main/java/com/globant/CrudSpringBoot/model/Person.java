@@ -1,4 +1,4 @@
-package model;
+package com.globant.CrudSpringBoot.model;
 
 import jakarta.persistence.*;
 

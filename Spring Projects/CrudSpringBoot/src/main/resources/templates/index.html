@@ -8,6 +8,7 @@
 <body>
 
     <div class="container mt-4">
+        <a th:href="@{/new}" class="btn btn-primary">New</a>
         <table class="table">
             <thead>
                 <tr>
@@ -19,11 +20,11 @@
             </thead>
             <tbody>
                 <tr th:each="person:${persons}">
-                    <td>${person.id}</td>
-                    <td>${person.name}</td>
-                    <td>${person.phone}</td>
+                        <td th:text="${person.id}"></td>
+                        <td th:text="${person.name}"></td>
+                        <td th:text="${person.phone}"></td>
                     <td>
-                        <a class="btn btn-warning">Edit</a>
+                        <a th:href="@{/edit/}+${person.id}" class="btn btn-warning">Edit</a>
                         <a class="btn btn-danger">Delete</a>
                     </td>
                 </tr>

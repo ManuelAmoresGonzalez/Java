@@ -2,6 +2,7 @@ package org.formacion.jpa.main;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
+import java.util.HashSet;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
@@ -13,31 +14,28 @@ public class Main {
 
     public static void main(String[] args) throws Exception {
 
-        EntityManagerFactory emf = Persistence.createEntityManagerFactory("jpa_main");
-        
-        // inicialización via JDBC
-        Connection con = DriverManager.getConnection("jdbc:h2:mem:test");
-        con.createStatement().executeUpdate(
-        		"insert into PERSONA (nombre) values ('nombre')");
-        con.commit();
-       
-        Persona primera = new Persona();
-        primera.setNombre("nombre");
-        
-        System.out.println("----- consulta -----");
-        
-        EntityManager em = emf.createEntityManager();
-        em.getTransaction().begin();
-        
-        Persona segunda = em.find(Persona.class, "nombre");
-        
-        System.out.println("primera.equals(segunda)? " + primera.equals(segunda));
-        System.out.println("segunda.equals(primera)? " + segunda.equals(primera));
-        
-        em.getTransaction().commit();
-        em.close();
-        emf.close();
-        
+        Persona person1 = new Persona("Manuel", 30);
+        Persona person2 = new Persona("Mario", 35);
+        Persona person3 = new Persona("Manuel", 30);
+
+        //Metodo equals
+        System.out.println("person1.equals(person2): " + person1.equals(person2));
+        System.out.println("person1.equals(person3): " + person1.equals(person3));
+
+
+        //Metodo hashcode
+        System.out.println("HashCode de person1: " + person1.hashCode());
+        System.out.println("HashCode de person2: " + person2.hashCode());
+        System.out.println("HashCode de person3: " + person3.hashCode());
+
+        HashSet<Persona> personSet = new HashSet<>();
+        personSet.add(person1);
+        personSet.add(person2);
+        personSet.add(person3);
+
+        System.out.println("Tamaño de personSet: " + personSet.size());
+
+
     }
 
 }

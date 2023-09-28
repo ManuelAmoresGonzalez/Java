@@ -1,5 +1,4 @@
-package com.PrimerAspecto.PrimerAspecto;
-
+import com.PrimerAspecto.TargetObject;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
@@ -8,8 +7,8 @@ import org.springframework.context.ConfigurableApplicationContext;
 public class PrimerAspectoApplication {
 
 	public static void main(String[] args) {
-		ConfigurableApplicationContext context = SpringApplication.run(DependencyIn)
-		//SpringApplication.run(PrimerAspectoApplication.class, args);
+		ConfigurableApplicationContext context = SpringApplication.run(PrimerAspectoApplication.class);
+		TargetObject targetObject = context.getBean(TargetObject.class);
+		targetObject.hello("Hello World");
 	}
-
 }

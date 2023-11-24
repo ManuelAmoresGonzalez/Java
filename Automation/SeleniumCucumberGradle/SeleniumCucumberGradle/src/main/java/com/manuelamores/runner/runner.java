@@ -1,5 +1,6 @@
 package com.manuelamores.runner;
 
+import com.manuelamores.pages.BasePage;
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
@@ -9,9 +10,6 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src/main/resources/features",
         glue = "com/manuelamores/steps"
-
 )
 
-public class runner {
-
-}
+public class runner {}

@@ -8,4 +8,10 @@ public class TestSandBox extends BasePage{
         super(driver);
     }
 
+    public void navigateToSandBox() {
+        navigateTo("https://www.google.com/");
+    }
+
+    public void selectCategory(String manual) {
+    }
 }

@@ -9,7 +9,8 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         features = "src/main/resources/features",
-        glue = "com/manuelamores/steps"
+        glue = "com/manuelamores/steps",
+        tags = "@Test"
 )
 
 public class runner {}

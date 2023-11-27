@@ -3,6 +3,7 @@ package com.manuelamores.steps;
 import com.manuelamores.pages.GridPage;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
+import org.junit.Assert;
 
 public class GridTestSteps {
 
@@ -15,7 +16,7 @@ public class GridTestSteps {
 
     @Then("^I can return the value I wanted$")
     public void iCanReturnTheValueIWanted() {
-        String value = gridPage.getValueFromGrid(1,1);
-        System.out.println(value);
+        final String value = gridPage.getValueFromGrid(1,1);
+        Assert.assertEquals("r: 0, c: 0", value);
     }
 }

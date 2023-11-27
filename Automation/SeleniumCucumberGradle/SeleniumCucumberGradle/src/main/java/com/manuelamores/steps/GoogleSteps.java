@@ -2,6 +2,7 @@ package com.manuelamores.steps;
 
 import com.manuelamores.pages.GooglePage;
 import io.cucumber.java.en.*;
+import org.junit.Assert;
 
 public class GoogleSteps {
 
@@ -23,6 +24,6 @@ public class GoogleSteps {
 
     @Then("^The results match the criteria$")
     public void theResultsMatchTheCriteria() {
-        System.out.println("Hola");
+       Assert.assertEquals("Texto",google.firstResult("Valor"));
     }
 }

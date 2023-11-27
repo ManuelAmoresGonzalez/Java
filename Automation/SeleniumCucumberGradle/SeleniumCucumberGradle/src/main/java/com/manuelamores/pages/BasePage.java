@@ -1,5 +1,6 @@
 package com.manuelamores.pages;
 
+import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -84,6 +85,12 @@ public class BasePage {
         driver.switchTo().alert().dismiss();
     }
 
+    public String textFromElemenmt(String locator){
+        return Find(locator).getText();
+    }
 
+    public boolean elementIsDisplayed(String locator){
+        return Find(locator).isDisplayed();
+    }
 
 }

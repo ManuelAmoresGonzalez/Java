@@ -20,5 +20,9 @@ public class GooglePage extends BasePage{
         writeText(searchCriteria,  criteria);
     }
 
+    public String firstResult(String locator){
+        return textFromElemenmt(locator);
+    }
+
 
 }

@@ -2,6 +2,7 @@ package com.manuelamores.pages;
 
 import org.junit.Assert;
 import org.openqa.selenium.By;
+import org.openqa.selenium.NoAlertPresentException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -12,6 +13,7 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
+import java.util.List;
 
 public class BasePage {
 
@@ -30,7 +32,7 @@ public class BasePage {
     }
     public static void navigateTo(String url){
         driver.get(url);
-        driver.manage().window().maximize();
+        //driver.manage().window().maximize();
     }
     private WebElement Find(String locator){
         return wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(locator)));
@@ -82,7 +84,11 @@ public class BasePage {
         driver.switchTo().parentFrame();
     }
     public void dismissAlert(){
-        driver.switchTo().alert().dismiss();
+        try {
+            driver.switchTo().alert().dismiss();
+        }catch (NoAlertPresentException e){
+            e.printStackTrace();
+        }
     }
 
     public String textFromElemenmt(String locator){
@@ -92,5 +98,11 @@ public class BasePage {
     public boolean elementIsDisplayed(String locator){
         return Find(locator).isDisplayed();
     }
+
+    public List<WebElement> bringMeAllElements(String locator){
+        return driver.findElements(By.className(locator));
+    }
+
+
 
 }

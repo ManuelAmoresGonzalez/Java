@@ -3,6 +3,7 @@ package com.manuelamores.steps;
 import com.manuelamores.pages.GridPage;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
 import org.junit.Assert;
 
 public class GridTestSteps {
@@ -18,5 +19,10 @@ public class GridTestSteps {
     public void iCanReturnTheValueIWanted() {
         final String value = gridPage.getValueFromGrid(1,1);
         Assert.assertEquals("r: 0, c: 0", value);
+    }
+
+    @Then("^I can validate the table is displayed$")
+    public void iCanValidateTheTableIsDisplayed() {
+        Assert.assertTrue(" Explotó todo ", gridPage.cellStatus());
     }
 }

@@ -5,6 +5,7 @@ import org.openqa.selenium.WebDriver;
 public class GridPage extends BasePage{
 
     String cell = "//*[@id='root']/div/";
+    String mainTable = "//*[@id='root']/div/table";
     public GridPage() {
         super(driver);
     }
@@ -17,7 +18,7 @@ public class GridPage extends BasePage{
         return getValueFromTable(cell, row, column);
     }
 
-    public boolean cellStatus(String locator){
-        return elementIsDisplayed(locator);
+    public boolean cellStatus(){
+        return elementIsDisplayed(mainTable);
     }
 }

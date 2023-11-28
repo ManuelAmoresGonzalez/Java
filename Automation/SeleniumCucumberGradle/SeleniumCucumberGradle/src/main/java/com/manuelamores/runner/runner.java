@@ -11,7 +11,8 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src/main/resources/features",
         glue = "com/manuelamores/steps",
-        tags = "@Test"
+        monochrome = true,
+        tags = "@Grid"
 )
 
 public class runner {

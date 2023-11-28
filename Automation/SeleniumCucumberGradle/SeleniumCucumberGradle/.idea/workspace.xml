@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f76c332f-0c18-415b-b2f5-03cc9d9928da" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/manuelamores/pages/GridPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/manuelamores/steps/GridTestSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/manuelamores/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/manuelamores/pages/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/manuelamores/pages/TestSandBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/manuelamores/pages/TestSandBox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/manuelamores/steps/TestSandboxSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/manuelamores/steps/TestSandboxSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/features/SandBox.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/SandBox.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/manuelamores/runner/runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/manuelamores/runner/runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/manuelamores/steps/GridTestSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/manuelamores/steps/GridTestSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/StaticTableTests.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/StaticTableTests.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/google.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/google.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,32 +55,51 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "SeleniumCucumberGraddle",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "/Users/manuel.amores/Desktop/Java/Automation/SeleniumCucumberGradle/SeleniumCucumberGradle/src/main/java/com/rmanuelamores/Main.java",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;SeleniumCucumberGraddle&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/manuel.amores/Desktop/Java/Automation/SeleniumCucumberGradle/SeleniumCucumberGradle/src/main/java/com/rmanuelamores/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: As a test engineer, I want to retrieve the value of an static table.">
+}</component>
+  <component name="RunManager" selected="Cucumber Java.Feature: StaticTableTests">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.manuelamores.Main" />
       <module name="SeleniumCucumberGradle.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.manuelamores.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: StaticTableTests" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/StaticTableTests.feature" />
+      <option name="GLUE" value="com.manuelamores.steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="SeleniumCucumberGradle.main" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: StaticTableTests" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,8 +144,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: As a test engineer, I want to retrieve the value of an static table." />
+        <item itemvalue="Cucumber Java.Feature: StaticTableTests" />
         <item itemvalue="JUnit.runner" />
+        <item itemvalue="Cucumber Java.Scenario: As a test engineer, I want to retrieve the value of an static table." />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -141,6 +161,11 @@
       <updated>1700773874909</updated>
       <workItem from="1700773875910" duration="37000" />
       <workItem from="1700773916272" duration="19957000" />
+      <workItem from="1701125668338" duration="1147000" />
+      <workItem from="1701127284007" duration="590000" />
+      <workItem from="1701127881739" duration="8000" />
+      <workItem from="1701128025045" duration="630000" />
+      <workItem from="1701128800958" duration="739000" />
     </task>
     <servers />
   </component>

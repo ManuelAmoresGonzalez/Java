@@ -11,8 +11,11 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src/main/resources/features",
         glue = "com/manuelamores/steps",
+       /* plugin = {"pretty", "html:target/cucumber-reports.html",
+        "json:target/cucumber-reports",
+        "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},*/
         monochrome = true,
-        tags = "@Grid"
+        tags = "@Amazon"
 )
 
 public class runner {

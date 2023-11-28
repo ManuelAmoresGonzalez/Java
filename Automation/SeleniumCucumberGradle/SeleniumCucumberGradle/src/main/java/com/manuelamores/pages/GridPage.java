@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 public class GridPage extends BasePage{
 
     String cell = "//*[@id='root']/div/";
-    String mainTable = "//*[@id='root']/div/table";
+    String mainTable = "//*[@id='rot']/div/table";
     public GridPage() {
         super(driver);
     }

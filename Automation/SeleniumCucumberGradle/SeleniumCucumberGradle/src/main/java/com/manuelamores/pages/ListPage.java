@@ -20,10 +20,10 @@ public class ListPage extends BasePage{
         navigateTo("https://andreidbr.github.io/JS30/O6AjaxTypeAhead/index.html");
     }
 
-    public void enterSerarchCriteria() throws InterruptedException {
+    public void enterSerarchCriteria(String state) throws InterruptedException {
         try {
             Thread.sleep(600);
-            writeText(searchField, "Washington");
+            writeText(searchField, state);
         }catch (NoSuchElementException e){
             System.out.println("The webelement search field couldn´t be found.");
             e.printStackTrace();

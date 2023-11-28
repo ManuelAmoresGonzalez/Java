@@ -7,10 +7,13 @@
     <list default="true" id="f76c332f-0c18-415b-b2f5-03cc9d9928da" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/manuelamores/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/manuelamores/pages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/manuelamores/pages/GridPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/manuelamores/pages/GridPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/manuelamores/pages/ListPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/manuelamores/pages/ListPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/manuelamores/runner/runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/manuelamores/runner/runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/manuelamores/steps/GridTestSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/manuelamores/steps/GridTestSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/features/StaticTableTests.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/StaticTableTests.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/features/google.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/google.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/manuelamores/steps/ListSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/manuelamores/steps/ListSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/SandBox.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/SandBox.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-reports" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +28,9 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand />
@@ -55,32 +61,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;SeleniumCucumberGraddle&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/manuel.amores/Desktop/Java/Automation/SeleniumCucumberGradle/SeleniumCucumberGradle/src/main/java/com/rmanuelamores/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "SeleniumCucumberGraddle",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "/Users/manuel.amores/Desktop/Java/Automation/SeleniumCucumberGradle/SeleniumCucumberGradle/src/main/java/com/rmanuelamores/Main.java",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Cucumber Java.Feature: StaticTableTests">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.manuelamores.Main" />
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.runner">
+    <configuration name="Feature: AmazonSearch" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/AmazonSearch.feature" />
+      <option name="GLUE" value="com.manuelamores.steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="SeleniumCucumberGradle.main" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: AmazonSearch" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.manuelamores.*" />
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,15 +124,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: As a test engineer, I want to retrieve the value of an static table." type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: As a customer when I search for Alexa, I want to see if the third" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/SandBox.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/AmazonSearch.feature" />
       <option name="GLUE" value="com.manuelamores.steps" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="SeleniumCucumberGradle.main" />
-      <option name="NAME_FILTER" value="^As a test engineer\, I want to retrieve the value of an static table\.$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^As a test engineer\, I want to retrieve the value of an static table\.$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: As a test engineer, I want to retrieve the value of an static table." />
+      <option name="NAME_FILTER" value="^As a customer when I search for Alexa\, I want to see if the third$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^As a customer when I search for Alexa\, I want to see if the third$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: As a customer when I search for Alexa, I want to see if the third" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -126,6 +143,28 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="SeleniumCucumberGradle [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
     </configuration>
     <configuration name="runner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SeleniumCucumberGradle.main" />
@@ -144,10 +183,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Feature: StaticTableTests" />
         <item itemvalue="JUnit.runner" />
-        <item itemvalue="Cucumber Java.Scenario: As a test engineer, I want to retrieve the value of an static table." />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Cucumber Java.Feature: AmazonSearch" />
+        <item itemvalue="Cucumber Java.Scenario: As a customer when I search for Alexa, I want to see if the third" />
+        <item itemvalue="Gradle.SeleniumCucumberGradle [test]" />
+        <item itemvalue="Cucumber Java.Feature: StaticTableTests" />
       </list>
     </recent_temporary>
   </component>
@@ -165,7 +205,8 @@
       <workItem from="1701127284007" duration="590000" />
       <workItem from="1701127881739" duration="8000" />
       <workItem from="1701128025045" duration="630000" />
-      <workItem from="1701128800958" duration="739000" />
+      <workItem from="1701128800958" duration="1062000" />
+      <workItem from="1701130191760" duration="13966000" />
     </task>
     <servers />
   </component>

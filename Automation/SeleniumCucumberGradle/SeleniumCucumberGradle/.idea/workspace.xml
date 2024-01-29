@@ -6,14 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f76c332f-0c18-415b-b2f5-03cc9d9928da" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/manuelamores/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/manuelamores/pages/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/manuelamores/pages/GridPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/manuelamores/pages/GridPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/manuelamores/pages/ListPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/manuelamores/pages/ListPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/manuelamores/runner/runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/manuelamores/runner/runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/manuelamores/steps/ListSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/manuelamores/steps/ListSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/features/SandBox.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/SandBox.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-reports" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/AmazonSearch.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/AmazonSearch.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,31 +54,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "SeleniumCucumberGraddle",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "/Users/manuel.amores/Desktop/Java/Automation/SeleniumCucumberGradle/SeleniumCucumberGradle/src/main/java/com/rmanuelamores/Main.java",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;SeleniumCucumberGraddle&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/manuel.amores/Desktop/Java/Automation/SeleniumCucumberGradle/SeleniumCucumberGradle&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/manuel.amores/Desktop/Java/Automation/SeleniumCucumberGradle/SeleniumCucumberGradle/src/main/java/com/rmanuelamores/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.runner">
+  <component name="RunManager" selected="Cucumber Java.Feature: AmazonSearch">
     <configuration name="Feature: AmazonSearch" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/AmazonSearch.feature" />
@@ -183,8 +177,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.runner" />
         <item itemvalue="Cucumber Java.Feature: AmazonSearch" />
+        <item itemvalue="JUnit.runner" />
         <item itemvalue="Cucumber Java.Scenario: As a customer when I search for Alexa, I want to see if the third" />
         <item itemvalue="Gradle.SeleniumCucumberGradle [test]" />
         <item itemvalue="Cucumber Java.Feature: StaticTableTests" />
@@ -206,7 +200,13 @@
       <workItem from="1701127881739" duration="8000" />
       <workItem from="1701128025045" duration="630000" />
       <workItem from="1701128800958" duration="1062000" />
-      <workItem from="1701130191760" duration="13966000" />
+      <workItem from="1701130191760" duration="18230000" />
+      <workItem from="1701212692002" duration="4144000" />
+      <workItem from="1701216876741" duration="135000" />
+      <workItem from="1701217333776" duration="934000" />
+      <workItem from="1701218920342" duration="1487000" />
+      <workItem from="1702654303220" duration="2000" />
+      <workItem from="1702745418183" duration="2035000" />
     </task>
     <servers />
   </component>

@@ -13,3 +13,9 @@
                 | Product      |
                 | Alexa        |
                 | Play Station |
+
+
+      And searches for <Product>
+      And navigates to the page number 2
+      And selects the third item
+      Then the user is able to add it to the cart
